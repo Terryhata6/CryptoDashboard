@@ -24,18 +24,20 @@ export default function PortfolioChart(){
                     'rgba(153, 102, 255, 1)',
                     'rgba(255, 159, 64, 1)',
                 ]
+
             },
         ],
     };
 
 
-    return <div>
-        <Pie style={{
-            display:'flex',
-            marginBottom:'1rem',
-            justifyContent:'center',
-            height:400}}  data={data}>
+    return <div style={{
+        display:'flex',
+        marginBottom:'1rem',
+        justifyContent:'center',
+        height:500
+    }}>
+        <Pie
 
-        </Pie>
+             data={data} />
     </div>
 }
