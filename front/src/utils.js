@@ -1,5 +1,6 @@
 export function percentDifferenceCounter(price, price2) {
-    return +(100 * Math.abs((price-price2) / ( (price+price2)/2) )).toFixed(2);
+    let number = 100 * Math.abs((price-price2) / ( (price+price2)/2) );
+    return (isNaN(number))?0:number;
 }
 
 export function capitalize(str){

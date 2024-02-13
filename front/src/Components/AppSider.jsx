@@ -1,7 +1,8 @@
 import {Card, Layout, List, Statistic, Typography, Spin, Tag} from "antd";
 import {ArrowDownOutlined, ArrowUpOutlined} from '@ant-design/icons';
-import {percentDifferenceCounter, capitalize} from "../utils.js";
+import {capitalize} from "../utils.js";
 import {useCrypto} from "../Context/crypto-context.jsx";
+import AddAssetButton from "./AddAssetButton.jsx";
 
 
 const siderStyle = {
@@ -35,7 +36,7 @@ export default function AppSider() {
                                     <span>{item.title}</span>
                                     <span>
                                         {item.withTag &&
-                                            <Tag color={asset.grow ? 'green' : 'red'}>{asset.growPercent}%</Tag>}
+                                            <Tag color={asset.grow ? 'green' : 'red'}>{asset.growPercent.toFixed(2)}%</Tag>}
                                         {item.isPlain && item.value}
                                         {!item.isPlain && (
                                             <Typography.Text type={(asset.grow) ? 'success' : 'danger'}>
@@ -48,6 +49,7 @@ export default function AppSider() {
                     </Card>
                 )
             })}
+            <AddAssetButton wideWidth/>
         </Layout.Sider>
     )
 }
