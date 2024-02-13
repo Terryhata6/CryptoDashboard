@@ -1,51 +1,42 @@
-Crypto Dashboard
-Overview
+# Crypto Dashboard
+
+## Overview
 
 Crypto Dashboard is a web application built with React 18 that allows users to track information about their cryptocurrency assets. Users can input details about the cryptocurrencies they own, monitor real-time prices, calculate overall profit, and view additional statistics. The project utilizes the Ant Design design system and integrates the React-Chartjs-2 library for chart visualization.
-Features
 
-    Cryptocurrency Portfolio: Keep track of your cryptocurrency holdings by entering relevant details such as name, quantity, and purchase price.
+## Features
 
-    Real-time Price Tracking: Stay updated with the latest prices of your cryptocurrencies to make informed decisions.
+- **Cryptocurrency Portfolio:** Keep track of your cryptocurrency holdings by entering relevant details such as name, quantity, and purchase price.
 
-    Profit Calculation: The dashboard automatically calculates the overall profit based on the current market prices and your purchase prices.
+- **Real-time Price Tracking:** Stay updated with the latest prices of your cryptocurrencies to make informed decisions.
 
-    Interactive Charts: Visualize your portfolio's performance over time with interactive charts powered by React-Chartjs-2.
+- **Profit Calculation:** The dashboard automatically calculates the overall profit based on the current market prices and your purchase prices.
 
-    Ant Design Integration: The project leverages the Ant Design design system for a clean and modern user interface.
+- **Interactive Charts:** Visualize your portfolio's performance over time with interactive charts powered by React-Chartjs-2.
 
-Technologies Used
+- **Ant Design Integration:** The project leverages the Ant Design design system for a clean and modern user interface.
 
-    React 18
-    Ant Design
-    React-Chartjs-2
+## Technologies Used
 
-Getting Started
+- React 18
+- Ant Design
+- React-Chartjs-2
 
-    Clone the Repository:
+## Getting Started
 
-    bash
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/crypto-dashboard.git
+   cd crypto-dashboard
 
-git clone https://github.com/your-username/crypto-dashboard.git
-cd crypto-dashboard
+2. **Install Dependencies:**
+   ```bash
+   npm install
 
-Install Dependencies:
 
-bash
-
-npm install
-
-Run the Application:
-
-bash
-
-    npm start
-
-    Access the Dashboard:
-    Open your browser and go to http://localhost:3000 to view the Crypto Dashboard.
-
-Screenshots
-
+3. **Run the Application:**
+    ```bash
+    npm run dev
 
 Contributing
 
@@ -58,5 +49,3 @@ Acknowledgments
     Hat tip to anyone whose code was used
     Inspiration
     etc.
-
-Просто убедитесь, что в разделе "Screenshots" вы добавили реальные скриншоты вашего дашборда, а путь к файлам и соответствующие разделы отражают структуру вашего проекта. Если у вас есть файл LICENSE или CONTRIBUTING.md, удостоверьтесь, что они также присутствуют в вашем репозитории.
