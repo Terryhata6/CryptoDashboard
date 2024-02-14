@@ -26,7 +26,7 @@ Crypto Dashboard is a web application built with React 18 that allows users to t
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/crypto-dashboard.git
+   git clone https://github.com/Terryhata6/CryptoDashboard.git
    cd crypto-dashboard
 
 2. **Install Dependencies:**
