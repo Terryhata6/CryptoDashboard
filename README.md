@@ -41,10 +41,3 @@ Crypto Dashboard is a web application built with React 18 that allows users to t
 5. **Run the Application:**
     ```bash
    npm run dev
-
-Contributing
-
-If you'd like to contribute to the project, please follow the contribution guidelines.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
